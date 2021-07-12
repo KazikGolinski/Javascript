@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Movie Finder",
+    "version": "0.1",
+    "description": "Movie Finder",
+    "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+        "js":["js/Content.js"]
+        }
+    ],
+    "browser_action":{
+        "default_popup": "js/Popup.html",
+        "default_title": "find movies",
+        "default_icon": {                
+            "16": "/js/icons/netflix_16.png",     
+            "24": "/js/icons/netflix_24.png",     
+            "32": "/js/icons/netflix_32.png",
+            "48": "/js/icons/netflix_48.png"      
+          }
+    }
+    
+}
