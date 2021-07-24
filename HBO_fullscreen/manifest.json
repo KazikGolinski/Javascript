@@ -1,0 +1,14 @@
+
+{
+    "name": "HBOgo fullscreen",
+    "version": "0.1",
+    "manifest_version" : 2,
+    "description": "Does some simple stuff",
+    "background" : {
+      "scripts" : ["onClick.js"]
+    },
+    "browser_action": {
+      "default_icon": "icons/HBOgo.png"
+    },
+    "permissions": ["activeTab"]
+  }
