@@ -1,0 +1,3 @@
+[submodule "wot-book"]
+	path = wot-book
+	url = https://github.com/webofthings/wot-book
